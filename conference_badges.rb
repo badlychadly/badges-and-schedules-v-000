@@ -1,4 +1,4 @@
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 
 def badge_maker(attendees)
   "Hello, my name is #{attendees}."
@@ -20,5 +20,3 @@ def printer(attendees)
     rooms = assign_rooms(attendees)
     rooms.each {|room| puts room}
 end
-
-printer(attendees)
